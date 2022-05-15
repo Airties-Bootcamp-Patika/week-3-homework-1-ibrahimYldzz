@@ -1,0 +1,31 @@
+Q1: İyi bir commit mesajı nasıl olmalıdır?
+A1: Konu satırı 50 karakter ile özet bir bilgi içermeli, Konu satırı büyük harfle başlamalı, Konu satırı nokta ile bitmemeli, Yazacağınız mesajda emir ifadeleri veya daha genel bir ifadeyle formal bir dil kullanın, Commit mesajı mümkün oldukça ne yapıldığını anlatan en kısa cümle ile yazılmalı
+
+Q2: FIFO ile LIFO sıralama şeklini araştırınız.
+A2: Fifo Yöntemi (İlk Giren İlk Çıkar): Fifo değerleme yöntemi, üretime verilecek olan veya satılacak malların stoklara ilk önce giren mallardan olması gerektiği varsayımına dayanır. Stoktaki malların kullanılma sırası ilk alınan mallardan başlanarak sırasyla devam eder. Yani stoklara giren malların yine giriş sırasıyla stoktan çıkarlar. Lifo Yöntemi (Son Giren İlk Çıkar): Lifo değerleme yöntemi, üretime verilecek olan veya satılacak malların stoklara son olarak giren mallardan olması gerektiği varsayımına dayanır. Stoktaki malların kullanılma sırası son olarak alınan mallardan başlanarak geriye doğru sırasyla devam eder. Yani stoklara giren malların giriş sırasının tersine göre stoktan çıkarlar.
+
+Q3: git merge rebase farkı, rebase yapısı nedir?
+A3: Merge komutu iki branch arasındaki değişiklikleri entegre etmenin en kolay yolu olmakla birlikte tek yol değildir. Rebase komutu da iki branch'ı entegre etmek için kullanılan merge komutuna alternatif bir komuttur.Eğer tüm değişiklikleri görmek istiyorsanız merge yapmalısınız çünkü merge tüm değişiklikleri olduğu gibi korur.Eğer daha sade, anlaşılabilir ve lineer bir commit history istiyor iseniz rebase sizin için daha yaralı olacaktır. Ancak bir ekip olarak public repository üzerinde çalışıyor iseniz çok ama çok dikkatli olmalısınız. Rebase i merge e kıyasla revert etmenin çok ama çok daha zor olacağımı da göz önünde bulundurmanız gerekir.Son olarak eğer branchinizi push yaptıysanız merge, yapmadıysanız rebase i kullanmanız doğru olacaktır.
+
+Q4: Sourcetree'yi inceleyiniz.
+A4: SourceTree, Atlassian Inc. tarafından geliştirilen Git yönetimi üzerine
+geliştirimiş bir masaüstü uygulamasıdır. SourceTree ile BitBucket, GitHub,
+GitLab, Stash gibi diğer Git eko-sistemleri üzerindeki Git Repository’lerinizi
+yönetmeyi kolaylaştıran uygulamadır.SourceTree’nin en temel amaçları:
+- Git Kullanımını Kolaylaştırmak,
+- Repository (Depo) Yönetimini Kolaylaştırmak,
+- Değişiklikleri Görselleştirmek,
+- Geliştirici Deneyimini Arttırmak
+
+Q5: Interpreter-Complier nedir? Aralarındaki farklar nelerdir?
+A5: Interpreters ve compilers birbirine oldukça benzer yapıdadırlar. Aralarındaki temel fark Interpreter kaynak programlama dili ile yazılan komutları doğrudan işlerken, Compiler da o komutları makina diline çevirir.
+
+Q6: Sp engine 
+A6: -
+
+Q7: servlet nedir
+A7: Java EE içerisinde yer alan Servlet sunucu (server) – istemci (client) tabanlı uygulamaların haberleşmesini yönetmek için kullanılan sınıf, arayüz ve paket topluluğudur.
+
+Servlet sunucuya bir istek geldiğinde sırayla çalışacak metotları belirtir.
+
+Bu metotlar Servlet yaşam döngüsü olarakta adlandırılır.

@@ -1,0 +1,18 @@
+Q1: Kernel ile Shell farkı
+A1: Çekirdek ve kabuk arasındaki temel fark, çekirdek, sistemin tüm görevlerini kontrol eden işletim sisteminin çekirdeği iken kabuk, kullanıcıların çekirdekle iletişim kurmasına izin veren arabirimdir.Unix bir işletim sistemidir. Kullanıcı ve donanım arasındaki arayüzdür. Dosya işleme, hafıza yönetimi, donanım cihazlarını kontrol etme, işlem yönetimi ve daha birçok işlemi içeren çeşitli görevleri yerine getirir. Unix'in çeşitli sürümleri var: Solaris Unix, HP Unix, AIX, vb. Linux, Unix'in bir tadı ve ücretsiz ve açık kaynak. Unix kurumsal seviyede popülerdir, çünkü çoklu kullanıcı ortamını destekler. Çekirdek ve Kabuk Unix mimarisinde iki bileşendir. Çekirdek, işletim sisteminin kalbidir; ancak Shell, kullanıcının isteklerini işleme koyan bir yardımcı programdır.
+
+Q2: Docker portainer
+A2: ortainer, Docker’la komut isteminden yaptığınız bir çok işlemi görsel bir yönetim panelinden yapmanızı sağlayan bir araç.
+
+Q3: Cross origin nedir
+A3: Cross-Origin Resource Sharing (Kökenler arası kaynak paylaşımı) anlamına gelen CORS, web tarayıcısı tarafından yönetilen ve ek HTTP başlıkları kullanılarak, bir kökende çalışan web uygulamasının, farklı bir kökende yer alan web uygulamasına erişim izni kontrolünü sağlayan mekanizmadır. Web uygulaması, internet tarayıcısı üzerinden farklı bir kökene (protokol, domain ve port) herhangi bir istek gönderirse cross-origin HTTP isteği oluşturmuş olur.
+
+Q4: Application server nedir
+A4: Sunucu kurulumları, hem iş hem de tüketici tarafından kabul edilen. Çeşitli bulut ve web tabanlı yazılım ve uygulamaların güçlendirilmesi için. Birlikte çalışılması gereken belirli görevlere ayrılmış çeşitli makinelerin ve bileşenlerin karmaşık yığınları olabilir.
+
+Uygulama sunucusu, web tabanlı uygulamalar oluşturmak ve çalıştırmak için. Gereken tüm çalışma zamanı ve yazılım çerçevelerini sağlayan bir ortamdır.
+
+Birincil web tabanlı sunucu katmanı ile bir veritabanı sunucusunun arka uç katmanı arasındayken. Uygulama sunucusu sunucu merkezli mimarinin orta katman bir parçasıdır.
+
+Q5: CVCS - DVCS nedir
+A5: Geliştirici veya bir tasarım ekibinde, bir proje üzerinde ortak çalışma süreci pek çok sorunu de beraberinde getirmektedir. Bu tür bir çalışma sürecindeki dosyaların kontrolleri için daha geniş ölçekli bir çözüm olarak Merkezi Sürüm Kontrol Sistemleri (Centralized Version Control Systems / CVCS) geliştirilmiştir. Merkezi sistemler uzun yıllar sürüm kontrol sisteminde standart yöntem olarak kabul görmüştür. CVS, Subversion ve Perforce gibi sistemler Merkezi Sürüm Kontrol Sistemleri için örnek olarak gösterilebilir. Sunucular sürüm kontrolüne alınan bütün dosyaları tutar. Dosyalar bu sunuculardan istemciler vasıtasıyla çekilerek alınırlar (check out). Dağıtık Sürüm Kontrol Sistemleri (Distributed Version Control Systems / DVCS)’nde istemciler (kullanıcılar) dosyaların yalnızca en son bellek kopyalarını almakla kalmaz, yazılım havuzunu (repository) bütünüyle kopyalarlar. Git, Mercurial, Bazaar ve Darcs gibi örnekleri dağıtık sistemlere örnek olarak ele alabiliriz. Dağıtık sistemlerde üzerinde ortak çalışma yütürülen sunuculardan biri çökerse istemcilerden birinin yazılım havuzu sunucuya geri yüklenerek sistem kurtarılabilmektedir. Her seçip alma (check out) işlemi esasında bütün verinin yedeklenmesiyle sonuçlanır.

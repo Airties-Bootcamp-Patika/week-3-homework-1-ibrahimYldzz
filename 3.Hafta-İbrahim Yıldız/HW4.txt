@@ -1,0 +1,16 @@
+Q1: URL, URI
+A1: URI (Uniform Resource Identifier), kaynağa tam olarak tanımlayıcı (identifier) ile işaret eden (belge, resim, dosya vb.) ve bu işaretleme için standart bir formata sahip karakter dizgisidir. URL kapsamında tutulan alt tanımlardır. Bir sayfa, görsel, dosya vb. URI için örnek olabilir; http://ornekwebsitesi.com/logo.png, ISBN 0-486-27557-4 gibi. URI, URL ve URN olarak 2 kapsama sahiptir. Hem URN’ler (adlar) hem de URL’ler (konumlayıcılar) URI’lardır ve belirli bir URI aynı anda hem bir isim hem de konumlandırıcı olabilir. 
+URL (Uniform Resource Locator), Tekdüzen Kaynak Bulucu ya da Kaynak Konumlayıcı şeklinde ifade edilebilir. İnternet aracılığıyla erişişebilecek kaynakların (dosyalar, dökümanlar vb.) konumu URL ile ifade edilir. URL teknik olarak URI’nın başlangıç kısmını oluşturur. Yapısal olarak, URL’in ardından ise URN gelmektedir. Ancak, bir konum belirtilmek istendiğinde çoğu durumda URI yerine URL ifadesi kullanılmaktadır.
+
+Q2: DNS yapısı, Domain nedir? Host yapısı
+A2: Alan adı, web sitelerinin internet üzerindeki adı ve adresidir. Bilgisayarların birbirini tanımasını sağlayan IP adreslerinin, akılda tutulması zor olduğundan dolayı, daha akılda kalıcı olan alan adları kullanılır. Bilgisayarlar birbirleri ile iletişime geçebilmek için, birbirlerinin sahip oldukları IP adreslerine ihtiyaç duyarlar. Bir kullanıcının kendi bilgisayarı ile başka bilgisayarlarla iletişime geçebilmesi için, iletişime geçeceği makinaların IP adreslerini bilmesi gerekecektir. İletişime geçilecek tüm bilgisayarların nümerik olan IP adresi değerlerini akılda tutması zor olduğundan dolayı, alan adı sistemi olarak adlandırılan DNS (Domain Name System-Alan Adı Sistemi) protokolü ortaya çıkmıştır. Bu protokol sayesinde DNS sunucuları aralarında haberleşebilirler ve varsayılan olarak 53 numaralı port DNS protokolü tarafından kullanılır.
+
+Q3: GNU nedir?
+A3: GNU; çekirdeği, sistem araçlarını, açıcılarını, kütüphanelerini ve son kullanıcı yazılımlarını içeren, GNU Tasarısı kapsamında geliştirilen bir işletim sistemidir. İsminin açılımı "GNU's Not Unix" (GNU Unix değildir) dir. Bu ismi almasındaki sebep de tasarımının Unix'e benzerken kendisinin özgür yazılım olması ve herhangi bir UNIX kodunu içermemesidir.
+
+Q4: Git Nedir?
+A4: Git, kısa süre içerisinde yazılımcıların vazgeçilmezleri arasına giren bir sürüm/versiyon kontrol sistemidir. Yazdığımız projeleri, bilgisayarımızda ya da harici disklerde binbir tehlike altında değilde internet üzerinde tutmamızı ve yönetmemizi sağlayan bir sistemdir.
+
+Q5: CLİ, GUİ ve farkı
+A5: Kullanıcı Arabirimi, bir kullanıcının bir elektronik cihazla, özellikle de bilgisayarla nasıl etkileşime girdiğini belirlemek için kullanılan bir terimdir. CLI ve GUI farklı kullanıcı arayüzleridir. Temel olarak işletim sisteminde kullanılan grafiklerde farklılık gösterir. CLI sisteminde işlem yapmak için bir komut yazılmalıdır. Öte yandan, GUI kullanıcıları, kullanıcıların doğrudan bir görevi yerine getirmelerini kolaylaştıran resimler ve simgeler içeren görsel yardımlar (grafikler) verdiler.
+CLI sistemleri, görev gerçekleştirme komutlarında uzmanlık isterken, GUI uzmanlık gerektirmezken, yeni kullanıcılar tarafından da çalıştırılabilir.

@@ -1,0 +1,18 @@
+Q1: Ansible nedir?
+A1: Ansible yönetiminizde olan sunucuların tek bir çatı altında istediğiniz herşeyi yapmaya olanak sağlayan, client istemcilere herhangi bir agent kurma ihtiyacı gerektirmeyen, Python ve Ruby dilleri ile geliştirilmiş özgür bir platformdur. Şuan da redhat çatısı altında bulunan ansible open source ve ticari olarak faliyet göstermektedir.
+
+Q2: XML nedir? Açılımı nedir?
+A2: XML (Extensible Markup Language ya da Türkçesiyle Genişletilebilir İşaretleme Dili), hem insanlar hem bilgi işlem sistemleri tarafından kolayca okunabilecek dokümanlar oluşturmaya yarayan bir işaretleme dilidir. W3C tarafından tanımlanmış bir standarttır. Bu özelliği ile veri saklamanın yanında farklı sistemler arasında veri alışverişi yapmaya yarayan bir ara format görevi de görür. SGML'in basitleştirilmiş bir alt kümesidir.
+
+Q3: JSON nedir?
+A3: JSON JavaScript Object Notation (JavaScript Nesne Gösterimi) kısaltmasıdır.
+JSON, verileri depolamak ve farklı platformlar arasında taşıma için kullanılan bir yapıdır.
+JSON, JavaScript nesne gösterim biçiminde yazılmış metinlerdir.
+
+Q4: YAML nedir
+A4: YAML dil bağımsız bir veri değişim formatıdır. Herhangi bir programlama dili ile oluşturulan nesneler,  YAML formatında kolaylıkla temsil edilebilmektedir. YAML geniş veri tipi desteği sayesinde tüm diller arasında ortak olarak kullanılabilir olmakla birlikte, ayrıca insan gözüyle bakıldığında kolay okunabilir bir yapısı mevcuttur.
+
+YAML ile kompleks nesne yapıları temsil edilebileceği gibi, konfigürasyon amaçlı kullanılan formatlara alternatif olarak da kullanılabilmektedir (Örneğin: .xml, .json,  .properties biçimleri).
+
+Q5: http, https, status kodların araştırılması (1 ile başlayanlar, 2 ile başlayanlar...)
+A5: 1xx -> Bilgi, 2xx -> Başarı 3xx -> Yönlendirme, 4xx -> İstemci hataları, 5xx -> Sunucu hataları

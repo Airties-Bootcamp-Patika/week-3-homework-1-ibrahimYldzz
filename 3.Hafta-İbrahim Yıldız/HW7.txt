@@ -1,0 +1,38 @@
+Q1: git unstaging staging kavramları nedir
+A1: Hazırlık alanı (staging area), genellikle Git klasörünüzde bulunan ve bir sonraki kayıt işlemine hangi değişikliklerin dahil olacağını tutan sade bir dosyadır. Buna bazen indeks dendiği de olur, ama hazırlık alanı ifadesi giderek daha standart hale geliyor.Örneğin internetin olmadığı bir alanda proje geliştiriyoruz tüm değişikleri gruplayarak Staging Area’ya alabiliriz ve oradan da repository mize commitleyebiliriz. Unstaging ise stage konumunda olan dosyaları çıkarmaktır.
+
+Q2: Git config ayarlarını bakalım user.name ve user.email
+A2: git config --global user.name "Ibrahim Yildiz"
+git config --global user.email "ibrahimyldz165@gmail.com"
+
+Q3: git_code adında linux komutlarıyla dizin oluşturalım
+A3: mkdir git_code
+
+Q4: git_code dizine içinde data.txt dosyası oluşturalım
+A4:cd git_code/  
+touch data.txt
+
+Q5: git init yapalım
+A5: git init
+
+Q6:  linux ve git adında 2 tane branch oluşturalım
+A6: git branch linux
+git branch git
+
+Q7: linux branchine linux.txt dosyasının içine aklıma gelen linux komutları yazar her 2-3 satır sonunda add ve commit yapalım
+A7: git checkout linux
+git add .
+git commit -m "first linux commit"
+
+Q8: git branchine git.txt dosyasının içine aklıma gelen linux komutları yazar her 2-3 satır sonunda add ve commit yapalım
+A8: git checkout git
+git add .
+git commit -m "first git commit"
+
+Q9 ve Q18 arasına vaktim kalmadığı için diğer cevaplarımı yollamak adına es geçtim. 
+
+Q19: conflict nedir? çözümü
+A19: İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
+
+Q20:merge ile rebase arasındaki fark nedir?
+A20: Merge komutu iki branch arasındaki değişiklikleri entegre etmenin en kolay yolu olmakla birlikte tek yol değildir. Rebase komutu da iki branch'ı entegre etmek için kullanılan merge komutuna alternatif bir komuttur.Eğer tüm değişiklikleri görmek istiyorsanız merge yapmalısınız çünkü merge tüm değişiklikleri olduğu gibi korur.Eğer daha sade, anlaşılabilir ve lineer bir commit history istiyor iseniz rebase sizin için daha yaralı olacaktır. Ancak bir ekip olarak public repository üzerinde çalışıyor iseniz çok ama çok dikkatli olmalısınız. Rebase i merge e kıyasla revert etmenin çok ama çok daha zor olacağımı da göz önünde bulundurmanız gerekir.Son olarak eğer branchinizi push yaptıysanız merge, yapmadıysanız rebase i kullanmanız doğru olacaktır.

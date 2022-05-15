@@ -1,0 +1,78 @@
+Q1: Bilgisayarda kaç port vardır?
+A1: 65535
+
+Q2: 1024 altı olan portlar neden dış dünyaya açılmıyor? 1024 altı portlarin genel adı nedir? (well-known ports)
+A2: Tanınmış bağlantı noktaları (0 – 1023 arası numaralar) hizmetler ve uygulamalar için ayrılmıştır. Genellikle HTTP (web sunucusu), POP3 / SMTP (e-posta sunucusu) ve Telnet gibi uygulamalar için kullanılır. Sunucu uygulamaları için bu iyi bilinen bağlantı noktalarını tanımlayarak, istemci uygulamaları söz konusu bağlantı noktasına ve onunla ilişkili hizmete bağlantı talep edecek şekilde programlanabilir. Bu nedenlerle dış dünyaya açılmazlar.
+
+Q3:80 portu dışarıya 8585 açılmış neden
+A3: -
+
+Q4:Nginx nedir?
+A4: NGINX nedir? NGINX (ing), “engine-ex” olarak telaffuz edilen açık kaynaklı bir web sunucu yazılımıdır. İlk piyasaya çıktığında HTTP web servisi olarak işlev görmekteydi. Ancak bugünlerde, ters vekil sunucusu, HTTP yük dengeleyicisi, IMAP, POP3 ve SMTP için de email vekil sunucusu olarak da hizmet vermekte.
+
+NGINX resmi olarak Ekim 2004’de piyasaya sürüldü. Yazılımın yaratıcısı, Igor Sysoev, projesine 2002’de C10k problemini cevaplamak için bir deneme olarak başladı.  Bugünlerde, web sunucularının başa çıkması gereken birçok bağlantı var. Bu sebepten dolayı, NGINX olay güdümlü ve eşzamansız bir mimari sunuyor. Bu özellik NGINX’i hız ve ölçeklenebilirlik için en güvenli sunuculardan biri kılıyor.
+
+Q5:Devops nedir? Devops yapısını araştırınız. (sonsuzluk işaretli diagramdaki başlıkların araştırılması)
+A5:DevOps , Bilgi Teknolojileri departmanı içerisinde bulunan iki temel birimi (Developers and Operations) Geliştiriciler(Yazılım Geliştiriciler, Yazılım Testçileri, vb.), Operasyon (Sistem Mimari ve Altyapı Ekipleri,Güvenlik ve Ağ ekipleri vb.) bir arada etkili bir iletişim içerisinde beraber çalışmalarıdır.DevOps’u aslında bir felsefe, yaklaşım veya bakış açısı olarak değerlendirebiliriz.Yazılım geliştiricilerin alışık olduğu Scrum, Agile, Kanban ve diğer yöntemler gibidir. 
+
+Dev takımı,
+
+Oluşturulacak uygulamaya ait planları yapmak,
+
+Uygulamayı oluşturmak(Kodlamak)
+
+Uygulama release ve publish (versiyonlama ve yayınlama)
+
+Uygulama iyileştirme (Update)
+
+Uygulama Test süreçleri
+
+……
+
+Sorumludur.
+
+Ops takımı,
+
+Oluşan uygulamaların barındırılacağı ve kullanılacağı ortamı tasarlamak,
+
+Uygulamaların çalışması için gereken sistem bileşenleri ile iletişime geçebilmeleri için gerekli ağ ve güvenlik yapılandırmalarının yapılmasını sağlamak,
+
+Uygulamanın kaynak kullanımını belirlemek,
+
+Uygulamanın gerekli izleme (Monitoring) araçları ile takibini sağlamak,
+
+Uygulamanın sistem kaynaklarını kullanım düzeyine göre kaynak arttırımını sağlamak (Scale Up ve Scale Down) ,
+
+……
+
+Sorumludur.
+
+Yukarıda belirttiğim takımların birbirleriyle yaptığı çalışmalar ve iletişim yoğunluğu sayesinde devreye alınması gereken yenilik ve düzeltmeler çok kısa süre içinde işleme alındıkları için verim ve başarı yüksek oluyor.CI&CD (Sürekli entegrasyon ve Sürekli Dağıtım) mantığı DevOps kavramı ile beraber oluşmaktadır.Ortaya çıkarılan ürünlerin bir otomasyon çevresinde ilerlemesi Dağıtım (Deploy), Versiyonlama (Release) ve Test süreçleri olarak DevOps içerisindeki tüm personelin uygulamanın kodlanmasından çalıştırılmasına ve yaşam döngüsünden haberi olmasını sağlıyor.
+
+Yazılım geliştirme sektöründe olan diğer meslek arkadaşlarının ekleyeceği birden fazla düşünce bakış açısı vardır.DevOps felsefesi tüm BT sektörü için daha güncel ve zamana uygun şekilde modernize olmuş hali ile hayatımız da ve sektörümüzde yer alıyor.Bu felsefe ve iş yapış türüne adapte olmak bize yeni olan tüm teknolojiler ile daha hızlı tanışmamızı ve adapte olmamızı sağlıyor.Tüm bu süreç topluluğuna ise DevOps deniyor..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
